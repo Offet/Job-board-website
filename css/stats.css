@@ -1,0 +1,68 @@
+.about {
+  background-image: linear-gradient(rgba(137, 186, 22, 0.9), rgba(143, 186, 39, 0.9)), url('../assets/images/hero4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  height: 60vh;
+ 
+  color: white;
+  /* align-content: center; */
+  /* column-gap: 5rem; */
+  
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.about p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.about-stat {
+  align-content: center;
+  gap: 10rem;
+  /* padding-top: -50px; */
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+
+/* .stat-figures {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /*gap: 15rem;
+  font-size: 3.6rem;
+  align-items: center;
+  position: absolute;
+  top: 250px; */
+  /* left: 150px; */
+/* /* position: absolute; */
+  /* left: 200px; 
+} */
+
+/* .stat-texts {
+  display: flex;
+  justify-content: center;
+  gap: 13rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: lighter;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  left: 140px;
+  padding: 30px;
+} */

@@ -1,0 +1,63 @@
+/* This CSS Section contais the slider css syles and the footer css styles. */
+
+/* Working on the slider part */
+
+.slider-container {
+    background-color: #F8F9FA;
+    position: relative;
+    padding: 5rem;
+    align-items: center;
+    overflow: hidden;
+}
+.slide {
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-family: "nunito" sans-serif;
+    font-style: italic;
+    color: #7f848c;
+    box-sizing: border-box;
+    
+}
+
+.slide p {
+    font-family: "nunito" sans-serif;
+    font-size: 22.4px;
+    padding: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* .slide img {
+
+} */
+
+
+
+
+/* Working on the footer */
+.footer {
+    background-color: #555555;
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    padding: 100px 0px;
+    /* text-decoration: none; */
+}
+
+.footer h3 {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/* .footer-text {
+    text-decoration: none;
+} */
+
+.footer ul li a {
+    font-size: 1rem;
+    color: #9b9699;
+    text-decoration: none;
+  }

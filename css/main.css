@@ -1,0 +1,106 @@
+/* Reset all element margins to 0. The asterisk sign * is called the all selector*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../assets/images/hero4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute; /* had to do a position relative at the header so that the hero can inherit the absolute and top, left properties*/
+  top: 430px;
+  left: 370px;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+.hero-box h1 {
+  font-size: 3.8rem;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.hero-box p {
+  font-size: 1.5rem;
+  
+  color: #9b9699;
+}
+
+.filter-box {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  position: absolute;
+  top: 180px;
+}
+
+.filter-type input {
+  width: 300px;
+  padding: 1.2rem 1.6rem;
+  border-radius: 5px;
+}
+
+.filter-type select {
+  width: 300px;
+  padding: 1.2rem 1.6rem;
+  border-radius: 5px;
+}
+
+.search-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #89ba16;
+  /* color: #727073; */
+  padding: 1.2rem 1.6rem;
+  width: 300px;
+}
+
+.search-btn:hover {
+  background-color: #a3df17;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* doing the trending section of the hero page */
+.trending {
+  display: flex;
+  position: absolute;
+  column-gap: 0.5rem;
+  top: 300px;
+  left: -100px;
+  justify-content: left;
+}
+
+/*  working on the trending section buttons */
+.trending a {
+  text-decoration: none;
+  background-color: #727073;
+  border: 1px solid #fff;
+  color: white;
+}
+
+/* working on the hover part of the trending sections */
+.trending a:hover {
+  background-color: white;
+  color: #a3df17;
+}
+

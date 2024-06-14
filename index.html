@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/hero.css">
+  <link rel="stylesheet" href="./css/stats.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Jobiremote</title>
+</head>
+
+<body>
+  <header>
+    <nav class="header-nav">
+      <div class="logo-box">
+        <a href="#">JOBIREMOTE</a>
+      </div>
+      <div class="main-nav">
+        <ul>
+          <li class="nav-links"><a href="#">Home</a></li>
+          <li class="nav-links"><a href="#">About Us</a></li>
+          <li class="nav-links"><a href="#">Job Listing</a></li>
+          <li class="nav-links"><a href="#">Pages</a></li>
+          <li class="nav-links"><a href="#">Blog</a></li>
+          <li class="nav-links"><a href="#">Contact Us</a></li>
+          <li class="nav-links"><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="btn-box">
+        <a class="btn btn-ghost" href="#"><span><i class="bi bi-plus"></i></span> Post a Job</a>
+        <a class="btn btn-full" href="#"><span><i class="bi bi-lock"></i></span>Login</a>
+      </div>
+    </nav>
+
+    <section class="hero-box">
+      <div>
+        <h1>The Easiest Way To Get Your Dream Job</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate est, consequuntur perferendis.
+        </p>
+      </div>
+      <div class="filter-box">
+        <div class="filter-type">
+          <input type="text" placeholder="Job Title, Company...">
+        </div>
+        <div class="filter-type">
+          <select name="cities" id="cities">
+            <option selected disabled>Select a City</option>
+            <option>Accra</option>
+            <option>Tamale</option>
+            <option>Kumasi</option>
+            <option>Takoradi</option>
+          </select>
+        </div>
+        <div class="filter-type">
+          <select name="cities" id="cities">
+            <option selected disabled>Select Job Type</option>
+            <option>Part Time</option>
+            <option>Full Time</option>
+          </select>
+        </div>
+        <div class="search-btn">
+          <i class="bi bi-search"></i><span>Search</span>
+        </div>
+      </div>
+      <div class="trending">
+        <p>
+          Trending Keywords:
+        </p>
+        <a class="btn btn-ghost" href="#">UI Designer</a>
+        <a class="btn btn-ghost" href="#">UI Designer</a>
+        <a class="btn btn-ghost" href="#">UI Designer</a>
+      </div>
+    </section>
+
+
+  </header>
+
+  <!-- adding section for job stats -->
+  <section class="about">
+    <div class="about-stat">
+      <h2>Jobiremote Site Stats</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde <br>officiis recusandae sequi excepturi
+        corrupti.</p>
+      <br>
+      <div class="stats">
+        <div class="stat-figures">
+          <h2>1,930</h2>
+          <p>Candidates</p>
+        </div>
+        <div class="stat-figures">
+          <h2>54</h2>
+          <p>Candidates</p>
+        </div>
+        <div class="stat-figures">
+          <h2>120</h2>
+          <p>Candidates</p>
+        </div>
+        <div class="stat-figures">
+          <h2 id="counter">550</h2>
+          <p>Candidates</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+      <div>
+        <h2>Jobiremote Site Stats</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis recusandae sequi excepturi corrupti.
+        </p>
+      </div>
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+    </section> -->
+  <section class="wrapper job-listings">
+    <h2>43,167 Jobs Listed</h2>
+    <div class="job-item">
+      <div class="company">
+        <div class="job-logo">
+          <img src="./assets/logos/job_logo_1.jpg.webp" alt="adidas logo">
+        </div>
+        <div class="job-title">
+          <h3>Product Designer</h3>
+          <h5>Adidas</h5>
+        </div>
+      </div>
+      <div class="location">
+        <div class="job-location">
+          <i class="bi bi-geo-alt"></i>
+          <span>Accra</span>
+        </div>
+        <a class="btn btn-full" href="#">Part Time</a>
+      </div>
+    </div>
+    <div class="job-item">
+      <div class="company">
+        <div class="job-logo">
+          <img src="./assets/logos/job_logo_2.jpg.webp" alt="adidas logo">
+        </div>
+        <div class="job-title">
+          <h3>Product Designer</h3>
+          <h5>Adidas</h5>
+        </div>
+      </div>
+      <div class="location">
+        <div class="job-location">
+          <i class="bi bi-geo-alt"></i>
+          <span>Accra</span>
+        </div>
+        <a class="btn btn-red" href="#">Part Time</a>
+      </div>
+    </div>
+    <div class="job-item">
+      <div class="company">
+        <div class="job-logo">
+          <img src="./assets/logos/job_logo_3.jpg.webp" alt="adidas logo">
+        </div>
+        <div class="job-title">
+          <h3>Product Designer</h3>
+          <h5>Adidas</h5>
+        </div>
+      </div>
+      <div class="location">
+        <div class="job-location">
+          <i class="bi bi-geo-alt"></i>
+          <span>Accra</span>
+        </div>
+        <a class="btn btn-full" href="#">Part Time</a>
+      </div>
+    </div>
+    <div class="job-item">
+      <div class="company">
+        <div class="job-logo">
+          <img src="./assets/logos/job_logo_4.jpg.webp" alt="adidas logo">
+        </div>
+        <div class="job-title">
+          <h3>Product Designer</h3>
+          <h5>Adidas</h5>
+        </div>
+      </div>
+      <div class="location">
+        <div class="job-location">
+          <i class="bi bi-geo-alt"></i>
+          <span>Accra</span>
+        </div>
+        <a class="btn btn-full" href="#">Part Time</a>
+      </div>
+    </div>
+    <div class="job-item">
+      <div class="company">
+        <div class="job-logo">
+          <img src="./assets/logos/job_logo_5.jpg.webp" alt="adidas logo">
+        </div>
+        <div class="job-title">
+          <h3>Product Designer</h3>
+          <h5>Adidas</h5>
+        </div>
+      </div>
+      <div class="location">
+        <div class="job-location">
+          <i class="bi bi-geo-alt"></i>
+          <span>Accra</span>
+        </div>
+        <a class="btn btn-red" href="#">Part Time</a>
+      </div>
+    </div>
+    <nav class="pagination">
+      <h3>Showing 1-7 Of 22,392 Jobs</h3>
+      <div class="page-navigation">
+        <span>
+
+          <a class="btn-btn-ghost" href="#"> Prev</a>
+          <a href="#" class="btn-btn-full">1</a>
+          <a class="btn-ghost" href="#">2</a>
+          <a class="btn-btn-ghost" href="#">3</a>
+          <a class="btn-btn-ghost" href="#"> Next</a>
+
+        </span>
+      </div>
+    </nav>
+
+  </section>
+  <section class="sign-up">
+    <div>
+      <h2>Looking For A Job?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempora adipisci impedit.
+      </p>
+    </div>
+    <div class="sign-up-btn">
+      <p>Sign Up</p>
+    </div>
+  </section>
+
+  <!-- Slider Section -->
+
+  <section class="swiper mySwiper">
+
+    <!-- <div class="slide">
+      <div class="slide-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum iure ad ut quia veniam numquam asperiores dolor illo et, ratione omnis molestiae quaerat corporis laborum quos voluptates a est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perspiciatis dolore architecto placeat commodi beatae rerum odio quas?</p>
+        <i class="bi bi-dash-lg"></i>
+          <span>Offet @Meltwater</span>
+      </div>
+      <img src="./assets/images/ceo1.webp" alt="">
+      </div>
+    <div class="slide">
+      </div> -->
+
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide">
+          <div class="slide-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum iure ad ut quia veniam numquam
+              asperiores dolor illo et, ratione omnis molestiae quaerat corporis laborum quos voluptates a est. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Amet perspiciatis dolore architecto placeat commodi
+              beatae rerum odio quas?</p>
+            <i class="bi bi-dash-lg"></i>
+            <span>Offet @Meltwater</span>
+          </div>
+          <img src="./assets/images/ceo1.webp" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+  </section>
+
+  <section>
+    <footer class="footer">
+      <div>
+        <h3>Search Trending</h3>
+        <div class="footer-text">
+          <ul>
+            <li class="nav-links"><a href="#">Home</a></li>
+            <li class="nav-links"><a href="#">About Us</a></li>
+            <li class="nav-links"><a href="#">Job Listing</a></li>
+            <li class="nav-links"><a href="#">Pages</a></li>
+            <li class="nav-links"><a href="#">Blog</a></li>
+            <li class="nav-links"><a href="#">Contact Us</a></li>
+            <li class="nav-links"><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <div class="footer-text">
+          <ul>
+            <li class="nav-links"><a href="#">Home</a></li>
+            <li class="nav-links"><a href="#">About Us</a></li>
+            <li class="nav-links"><a href="#">Job Listing</a></li>
+            <li class="nav-links"><a href="#">Pages</a></li>
+            <li class="nav-links"><a href="#">Blog</a></li>
+            <li class="nav-links"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3>Support</h3>
+        <div class="footer-text">
+          <ul>
+            <li class="nav-links"><a href="#">Home</a></li>
+            <li class="nav-links"><a href="#">About Us</a></li>
+            <li class="nav-links"><a href="#">Job Listing</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <div class="footer-logo">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter-x"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
