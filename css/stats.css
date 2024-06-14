@@ -17,12 +17,13 @@
   text-align: center;
   font-size: 3rem;
   font-weight: lighter;
+  margin-top: 50px;
 }
 
 .about p {
   text-align: center;
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 350;
   padding: 20px;
 }
 
@@ -36,8 +37,16 @@
   display: flex;
   justify-content: space-evenly;
   align-content: flex-start;
+  margin-top: 50px;
 }
 
+.stat-figures {
+  margin-top: -20px;
+}
+
+.stat-figures h2 {
+  font-size: 4rem;
+}
 
 /* .stat-figures {
   display: flex;
